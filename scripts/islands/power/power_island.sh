@@ -18,6 +18,7 @@ icon=$P_DYNAMIC_ISLAND_ICON_BATTERY_ONBATTERY
 
 if [ "$power_source" == "AC" ]; then
 	icon=$P_DYNAMIC_ISLAND_ICON_BATTERY_CONNECTEDAC
+	power_source="Power Adapter"
 fi
 
 if [[ $override == "0" ]]; then
